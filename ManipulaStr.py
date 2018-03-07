@@ -67,3 +67,26 @@ print("A frase inicia com: Vamos - %s" % achou)
 print()
 
 print("=" * 80)
+
+#Localizar uma palavra na frase
+onde = frase.find("esquecida")
+
+print()
+print("A localização na frase da palavra: esquecida - %s" % onde)
+print()
+
+onde = frase.find("como")
+#observe que foi localizado a primeira ocorrencia da palavra
+print()
+print("A localização na frase da palavra: como - %s" % onde)
+print()
+
+print("=" * 80)
+
+#Troca palavras dentro da frase
+nfrase = frase.replace("erro","falha")
+
+print()
+print(nfrase)
+print()
+
